@@ -1,2 +1,6 @@
+wikipedia: http://agyenes.github.io/wikipedia/gya_wiki.html
 
-[http://agyenes.github.io/gya_cv.html]
+cv: http://agyenes.github.io/gya_cv/gya_cv.html
+
+first day: http://agyenes.github.io/elso/egy_html_b.html
+
