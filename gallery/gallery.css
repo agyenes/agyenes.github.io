@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background: #00FA9A;
+  height: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+  .wrapper h1 {
+    font-family: 'Anton', sans-serif;
+    align-items: center;
+    color: #003f71;
+    font-size: 58px;
+    padding: 5px 0;;
+  }
+
+  .wrapper p {
+    padding: 10px 0;
+    font-family: 'Hind', sans-serif;
+  }
+
+.selected {
+  background-color: #3CB371;
+  margin: 0 10px;
+  padding: 5px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  border-radius: 25px;
+  display: flex;
+}
+
+  .box_of_selected_image {
+    margin: 0 auto;
+  }
+
+  .selected p {
+    padding: 5px 0;
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+    line-height: 10px;
+  }
+
+  .selected h3 {
+      padding: 5px 0;
+      font-size: 32px;
+      font-family: 'Hind', sans-serif;
+    }
+
+    .selected h4 {
+      font-size: 26px;
+      font-family: 'Hind', sans-serif;
+      line-height: 20px;
+      padding: 15px 0 10px;
+    }
+
+    .selected_image {
+      text-align: center;
+      height: 80%;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+
+    .selected .left_holder img {
+      height: 100px;
+      width: 220px;
+      margin: 0 20px;
+    }
+
+    .selected .right_holder img {
+      height: 100px;
+      width: 220px;
+      margin: 0 20px;
+    }
+
+.thumbnails {
+  background-color: #3CB371;
+  margin: 0 10px;
+  padding: 5px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  border-radius: 25px;
+  margin: 30px 60px;
+}
+
+    .little_pictures {
+      overflow-y : hidden;
+      overflow-x : scroll;
+      white-space: nowrap;
+    }
+
+    .middle_box {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .little_pictures h3 {
+      margin: 0;
+      padding: 5px 0;
+      font-family: 'Hind', sans-serif;
+    }
+
+    .thumbnails img {
+      height: 80px;
+      width: 140px;
+      padding: 0;
+    }
+
+    .thumbnails .left_holder img, .thumbnails .right_holder img {
+      height: 80px;
+      width: 80px;
+      margin: 0 20px;
+    }
