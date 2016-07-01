@@ -1,16 +1,16 @@
 'use strict';
 
 var images = [
-    "./Images/img1.jpg",
-    "./Images/img2.jpg",
-    "./Images/img3.jpg",
-    "./Images/img4.jpg",
-    "./Images/img5.jpg",
-    "./Images/img6.jpg",
-    "./Images/img7.jpg",
-    "./Images/img8.jpg",
-    "./Images/img9.jpg",
-    "./Images/img10.jpg"
+    "./images/img1.jpg",
+    "./images/img2.jpg",
+    "./images/img3.jpg",
+    "./images/img4.jpg",
+    "./images/img5.jpg",
+    "./images/img6.jpg",
+    "./images/img7.jpg",
+    "./images/img8.jpg",
+    "./images/img9.jpg",
+    "./images/img10.jpg"
 ]
 
 var picture_titles = [
