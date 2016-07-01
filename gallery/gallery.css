@@ -92,21 +92,15 @@
   margin: 30px 60px;
 }
 
-    .little_pictures {
-      overflow-y : hidden;
-      overflow-x : scroll;
-      white-space: nowrap;
-    }
-
     .middle_box {
       display: block;
       margin: 0 auto;
+      font-family: 'Hind', sans-serif;
     }
 
     .little_pictures h3 {
       margin: 0;
       padding: 5px 0;
-      font-family: 'Hind', sans-serif;
     }
 
     .thumbnails img {
