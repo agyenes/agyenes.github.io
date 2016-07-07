@@ -6,4 +6,4 @@ wikipedia: http://agyenes.github.io/wikipedia/gya_wiki.html
 
 cv: http://agyenes.github.io/gya_cv/gya_cv.html
 
-yodanizer: http://agyenes.github.io/gya_cv/yoda.html
+yodanizer: http://agyenes.github.io/yodanizer/yoda.html
