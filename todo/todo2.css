@@ -65,7 +65,7 @@ li {
 .trash-button {
   background:url(./garb2.png) no-repeat;
   margin-top: 10px;
-  background-size: 30px;
+  background-size: 40px;
 }
 
 :not(.completed) .check-button {

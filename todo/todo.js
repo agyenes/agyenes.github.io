@@ -87,10 +87,12 @@ function appendTodo(item) {
     var todoItem = document.createElement('li');
     var trashIcon = document.createElement('button');
     var completeIcon = document.createElement('button');
+    var iconContainer = document.createElement('div')
     todoItem.setAttribute('id', item.id);
     todoItem.innerText = item.text;
-    todoItem.appendChild(trashIcon);
-    todoItem.appendChild(completeIcon);
+    iconContainer.appendChild(trashIcon);
+    iconContainer.appendChild(completeIcon);
+    todoItem.appendChild(iconContainer);
     trashIcon.classList.add('btn');
     completeIcon.classList.add('btn');
     trashIcon.classList.add('trash-button');
