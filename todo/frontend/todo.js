@@ -1,6 +1,6 @@
 'use strict';
 
-var url = 'http://localhost:3000/todos/';
+var url = 'http://195.228.147.122:3000/todos/';
 var inputField = document.querySelector('input');
 var addButton = document.querySelector('.add_button');
 var todoList = document.querySelector('ul');
