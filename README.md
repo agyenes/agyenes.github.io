@@ -8,4 +8,4 @@ cv: http://agyenes.github.io/gya_cv/gya_cv.html
 
 yodanizer: http://agyenes.github.io/yodanizer/yoda.html
 
-todo app: http://agyenes.github.io/todo/todo2.html
+todo app: http://agyenes.github.io/todo/frontend/index.html
