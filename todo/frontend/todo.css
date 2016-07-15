@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(#008055 30%, #5F9EA0 75%, #8FBC8F 90%);
+  min-height: 650px;
+}
+
+.container {
+  background: linear-gradient(#000066 20%, #4B0082 70%, #4B0082 90%);
+  margin: 70px auto;
+  color: #9b9b9b;
+  padding: 20px 45px;
+  width: 50%;
+  border: 15px #FFFFE0;
+  border-style: groove;
+  border-radius: 15px;
+  box-shadow: 20px 20px 60px #e0e0d1;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 85px;
+  color: #80ff80;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 10px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h1 {
+  margin: 20px;
+}
+
+#text {
+  height: 50px;
+  outline: none;
+  margin: 0;
+  width: 60%;
+  font-size: 38px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+#text:focus {
+  transform: rotate(-5deg);
+  border: 3px solid 797953;
+  box-shadow: 6px 6px 10px #a6ff4d;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  font-family: 'Dosis', sans-serif;
+  font-size: 42px;
+  line-height: 1.8;
+  color: #f0fff0;
+  list-style-type: none;
+  text-shadow: 10px 10px 20px #000000;
+}
+
+.add_button {
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  background: #800000;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+
+.add_button:hover {
+  transform: rotate(360deg);
+  box-shadow: 2px 2px 10px #e0e0d1;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  min-height: 60px;
+}
+
+.trash-button {
+  background:url(./garb.png) no-repeat;
+  background-size: 50px;
+  transition: 0.5s;
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
+
+.trash-button:hover {
+  transform: rotate(540deg);
+}
+
+:not(.completed) .check-button {
+  background:url(./c_emp.png) no-repeat;
+  background-size: 50px;
+  background-color: #4B0082;
+  transition: 0.5s;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.completed .check-button {
+  background:url(./c_full.png) no-repeat;
+  background-size: 50px;
+  background-color: #4B0082;
+  transition: 0.5s;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.completed .check-button:enabled {
+  margin-right: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
