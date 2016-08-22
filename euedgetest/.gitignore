@@ -1,0 +1,7 @@
+node_modules/
+*.css
+.env
+.env2
+.eslintcache
+npm-debug.log
+newrelic_agent.log
