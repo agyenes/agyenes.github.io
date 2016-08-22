@@ -23,7 +23,10 @@
           <table data-toggle="table" class="table table-hover table-striped">
             <thead class="thead-inverse">
               <tr>
-                 <th class="name_col" data-field="name" data-sortable="true">Name<br>(job title)</th>
+                 <th class="name_col">Name<br>(job title)
+									 <span class="glyphicon glyphicon-chevron-down" ng-click="order = 'name'"></span>
+									 <span class="glyphicon glyphicon-chevron-up" ng-click="order = '-name'"></span>
+								 </th>
                  <th class="age_col">Age</th>
                  <th class="nick_col">Nickname</th>
                  <th class="emp_col">Employee</th>

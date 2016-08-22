@@ -63,6 +63,7 @@ var ModalInstanceCtrl = function($scope, $modalInstance, userForm) {
   $scope.form = {};
 
   $scope.submitForm = function() {
+    // $scope.addPerson();
     $modalInstance.close('closed');
   };
 
