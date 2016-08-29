@@ -10,30 +10,6 @@ frontendTestApp.controller('testAppController', ['$scope', '$modal', '$log', '$h
       $scope.persons.splice(removedPerson, 1);
     };
 
-    function personAdder() {
-      return {
-        name: $scope.newperson.name,
-        job: $scope.newperson.job,
-        age: $scope.newperson.age,
-        nick: $scope.newperson.nick,
-        employee: $scope.newperson.employee
-      };
-    }
-
-    function clearInputFields() {
-      $scope.newperson.name = '';
-      $scope.newperson.job = '';
-      $scope.newperson.age = '';
-      $scope.newperson.nick = '';
-      $scope.newperson.employee = '';
-    }
-
-    $scope.addPerson = function() {
-      var personToAdd = personAdder();
-      $scope.persons.push(personToAdd);
-      clearInputFields();
-    };
-
     $http.get('data/persons.json').success(function(data) {
       $scope.persons = data;
     });
@@ -60,10 +36,10 @@ frontendTestApp.controller('testAppController', ['$scope', '$modal', '$log', '$h
 
 var ModalInstanceCtrl = function($scope, $modalInstance, userForm) {
 
-  $scope.form = {};
+  $scope.newperson = {};
 
   $scope.submitForm = function() {
-    // $scope.addPerson();
+    $scope.persons.push($scope.newperson);
     $modalInstance.close('closed');
   };
 

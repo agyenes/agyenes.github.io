@@ -1,1 +1,0 @@
-the json file contains all necessary modules just download it and type npm install
