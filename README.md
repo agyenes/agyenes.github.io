@@ -1,6 +1,6 @@
 Currently uploaded material in my repo:
 
-tictactoe: http://agyenes.github.io/euedgetest/index.html
+tictactoe: http://agyenes.github.io/tictactoe/index.html
 
 euedgetest: http://agyenes.github.io/euedgetest/index.html
 
