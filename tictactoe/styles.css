@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(#8FBC8F 0%, #008055 40%, #5F9EA0 80%, #8FBC8F 100%);
+  background-size: auto;
+  text-align:center;
+}
+
+.container {
+  margin: 15px;
+  padding: 0 20px;
+  border-radius: 15px;
+  border-style: groove;
+  background: linear-gradient(#1d3030 0%, #437070 40%, #2F4F4F 80%, #1d3030 100%);
+  display: inline-block;
+  min-width:650px;
+  height:auto;
+  box-shadow: 10px 10px 30px #9fc6c6;
+  vertical-align: middle;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border: 3px groove #8fbcbc;
+  border-radius: 10px;
+  margin: 5px;
+  transition: 0.5s;
+}
+
+img:hover {
+  box-shadow: 5px 5px 20px #9fc6c6;
+}
+
+img:focus {
+  transition: 1s;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-around;
+}
+
+.result {
+  text-align: center;;
+}
+
+.result span {
+  color: #cfcfcf;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 5px 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #afcfcf;
+  text-shadow: 5px 5px 10px black, 0 0 25px #437070, 0 0 5px #9fc6c6;
+  letter-spacing: 10px;
+  font-size: 67px;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-size: 37px;
+  margin: 0 20px;
+}
+
+.x {
+  background: url(./img/x.jpg) no-repeat;
+  background-size: cover;
+}
+
+.o {
+  background: url(./img/o.jpg) no-repeat;
+  background-size: cover;
+}
+
+button {
+  margin: 10px 0;
+  height: 50px;
+  width: 150px;
+  background: linear-gradient(#8FBC8F 0%, #008055 10%, #1d3030 90%);
+  color: #aFBC8F;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-shadow: 5px 5px 10px black, 0 0 25px #437070, 0 0 5px #9fc6c6;
+  font-size: 27px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #8FBC8F;
+  color: black;
+}
+
+.clicked {
+  pointer-events: none;
+}
