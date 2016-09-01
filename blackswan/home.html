@@ -1,0 +1,15 @@
+<body ng-app="dictionaryApp">
+  <div class="col-sm-12">
+    <div class="add-group col-sm-12">
+
+      <h1 class="main-header">Dictionary game</h1>
+      <h2 class="main-header">Please type a word!</h2>
+      <form ng-submit="addWord()">
+        <input type="text" name="newcompany" class="add-field form-control" ng-model="newWord.name" required placeholder="Your new word">
+        <button class="add-button" type="submit">Add</button>
+      </form>
+      <h2 class="message">{{message}}</h2>
+
+    </div>
+  </div>
+</body>

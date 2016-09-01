@@ -1,0 +1,28 @@
+<body ng-controller="dictController">
+    <div class="col-sm-12">
+
+      <div class="page-body">
+
+        <h1 class="main-header">Highscores</h1>
+
+        <table data-toggle="table" class="table table-hover">
+          <thead class="thead-inverse">
+            <tr class="table-header">
+               <th class="col-sm-8 word_col">Words</th>
+               <th class="col-sm-4 score_col">Score</th>
+            </tr>
+          </thead>
+
+          <tr class="table-rows" ng-repeat="word in userWords| orderBy: '-score'">
+            <td class="col-sm-8 word_col">{{word.name}}</td>
+            <td class="col-sm-4 score_col">{{word.score}}</td>
+          </tr>
+
+        </table>
+
+        <button class="clear-button" ng-click="clearAll()">Clear list</button>
+
+      </div>
+    </div>
+
+</body>
